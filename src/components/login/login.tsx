@@ -1,4 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
+import { Link } from 'react-router-dom';
 
 export default createBoard({
     name: 'Login',
@@ -28,7 +29,7 @@ export default createBoard({
                     <br />
                     <input type="password" className="password-input" />
                     <br />
-                    <a href="/">I forgot my password</a>
+                    <Link to='/frontpage'>Forgot password</Link>
                     <br />
                     <input type="button" value="Login" className="submit_button" />
                 </form>

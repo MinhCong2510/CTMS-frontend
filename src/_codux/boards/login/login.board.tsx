@@ -28,7 +28,8 @@ export default createBoard({
                     <br />
                     <input type="password" className="password-input" />
                     <br />
-                    <a href="/">I forgot my password</a>
+                    <a href=".">I forgot my password </a>
+
                     <br />
                     <input type="button" value="Login" className="submit_button" />
                 </form>
