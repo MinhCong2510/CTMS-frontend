@@ -213,3 +213,9 @@ button:focus-visible {
 }
 .forgotPBackground {
 }
+.splitPanel {
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+  column-gap: -10px;
+}
