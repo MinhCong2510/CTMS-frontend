@@ -23,11 +23,25 @@ export const Staff = ({ className }: StaffProps) => {
                             height: 100,
                         }}
                     />
-                    <div>
-                    <label>Name</label>
-                    <label>Name</label>
-                    <label>Name</label>
-                    <label>Name</label>
+                    <div className={styles.staffField}>
+                        <label>Name:</label>
+                        <label>Position:</label>
+                        <label>Involved Projects:</label>
+                        <label>Certification: </label>
+                    </div>
+                </div>
+                <div className={styles.staffProfile}>
+                    <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt=""
+                        style={{
+                            width: 100,
+                            height: 100,
+                        }}
+                    />
+                    <div className={styles.staffField}>
+                        <label>Name:</label>
+                        <label>Position:</label>
+                        <label>Involved Projects:</label>
+                        <label>Certification: </label>
                     </div>
                 </div>
             </div>

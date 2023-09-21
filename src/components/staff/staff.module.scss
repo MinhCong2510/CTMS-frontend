@@ -3,4 +3,10 @@
 .staffProfile {
     display: flex;
     justify-content: start;
+    align-content: center;
+}
+
+.staffField {
+    display: flex;
+    flex-direction: column;
 }
