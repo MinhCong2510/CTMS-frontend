@@ -4,6 +4,7 @@ import App from './App';
 import './index.css';
 import { BrowserRouter, Route} from 'react-router-dom';
 import { FrontPage } from './components/front-page/front-page';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
