@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './header.module.scss';
+import { Link } from 'react-router-dom';
 
 export interface HeaderProps {
     className?: string;
@@ -62,9 +63,11 @@ export const Header = ({ className }: HeaderProps) => {
                             paddingLeft: '10px',
                         }}
                     />
-                    Hello, George
+                    Hello, Jack
                 </div>
+                
             </div>
+            
         </nav>
     );
 };

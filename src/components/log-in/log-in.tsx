@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './log-in.module.scss';
+import { Link } from 'react-router-dom';
 
 export interface LogInProps {
     className?: string;
@@ -35,9 +36,11 @@ export const LogIn = ({ className }: LogInProps) => {
                     <br />
                     <input type="password" className="password-input" />
                     <br />
-                    <a href="/">I forgot my password</a>
+                    <a>I forgot my password</a>
                     <br />
+                    <Link to='/frontpage'>
                     <input type="button" value="Login" className="submit_button" />
+                    </Link>
                 </form>
             </div>
         </div>;

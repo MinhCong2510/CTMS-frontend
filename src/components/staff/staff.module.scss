@@ -4,9 +4,14 @@
     display: flex;
     justify-content: start;
     align-content: center;
+    padding: 10px;
 }
 
 .staffField {
     display: flex;
     flex-direction: column;
+    padding: 0px 10px;
+    justify-content: start;
+    justify-items: start;
+    text-align: start;
 }

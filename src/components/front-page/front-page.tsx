@@ -3,6 +3,8 @@ import styles from './front-page.module.scss';
 import { OngoingProject } from '../ongoing-project/ongoing-project';
 import { UpcomingProject } from '../upcoming-project/upcoming-project';
 import { Sidebar } from '../sidebar/sidebar';
+import { Header } from '../header/header';
+import { Navbar } from '../navbar/navbar';
 
 export interface FrontPageProps {
     className?: string;
@@ -14,12 +16,14 @@ export interface FrontPageProps {
  */
 export const FrontPage = ({ className }: FrontPageProps) => {
     return (
+        
         <div className={classNames(styles.root, className)}>
+        <Header />
+        <Navbar />
             <div className="splitPanel">
                 <div>
-                    <UpcomingProject />
                     <OngoingProject />
-                </div>
+                    <UpcomingProject /></div>
                 <Sidebar />
             </div>
         </div>

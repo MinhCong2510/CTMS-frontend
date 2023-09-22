@@ -15,45 +15,33 @@ export const OngoingProject = ({ className }: OngoingProjectProps) => {
             <div className={styles.contentHeader}>Ongoing Projects:</div>
             <div className={styles.projectCarousel}>
                 <div className={styles.projectCard}>
-                    Project 1
+                    Cancer-Free
                     <img
-                        src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                        src="https://st4.depositphotos.com/14431644/24384/i/450/depositphotos_243840022-stock-photo-text-sign-showing-cancer-free.jpg"
                         alt=""
                         style={{
                             paddingRight: '10px',
                             paddingLeft: '10px',
                             height: 150,
                             width: 150,
+                            objectFit: 'cover',
                         }}
                     />
                 </div>
                 <div className={styles.projectCard}>
-                    Project 2
+                    Dementia
                     <img
-                        src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                        src="https://img.aplaceformom.com/image/web-lighthouse/prod/dementia_behaviors.jpg?t=default"
                         alt=""
                         style={{
                             paddingRight: '10px',
                             paddingLeft: '10px',
                             height: 150,
                             width: 150,
+                            objectFit: 'cover',
                         }}
                     />
-                </div>
-                <div className={styles.projectCard}>
-                    Project 3
-                    <img
-                        src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
-                        alt=""
-                        style={{
-                            paddingRight: '10px',
-                            paddingLeft: '10px',
-                            height: 150,
-                            width: 150,
-                        }}
-                    />
-                </div>
-            </div>
+                </div></div>
         </div>
     );
 };
