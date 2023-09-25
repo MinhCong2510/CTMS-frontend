@@ -2,6 +2,8 @@ import classNames from 'classnames';
 import styles from './project-page.module.scss';
 import { Sidebar } from '../sidebar/sidebar';
 import { NewProject } from '../new-project/new-project';
+import { Header } from '../header/header';
+import { Navbar } from '../navbar/navbar';
 
 export interface ProjectPageProps {
     className?: string;
@@ -15,6 +17,8 @@ export interface ProjectPageProps {
 export const ProjectPage = ({ className }: ProjectPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
+            <Header />
+            <Navbar />
             <div className="splitPanel">
                 <NewProject />
                 <Sidebar />

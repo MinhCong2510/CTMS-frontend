@@ -228,6 +228,24 @@ button:focus-visible {
     width: 350px;
     height: 25px;
     border-radius: 5px;
+
+}
+
+.contentHeader {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d96262;
+    font-weight: 700;
+    text-align: start;
+}
+
+.textField {
+    font-size: 20px;
+    display: inline;
+    background-color: rgba(3, 67, 125, 0.03);
+    color: #03437d;
+    padding-right: 0px;
 }
 
 .forgotPBackground {
@@ -294,32 +312,3 @@ button:focus-visible {
     justify-content: space-between;
     column-gap: -10px;
 }
-
-.OngoingTrialFrPage {
-    display: flex;
-}
-
-.OngoingTrialFrPageFrame-h2 {
-    color: rgb(217, 98, 98);
-    text-align: center;
-    font-size: 30px;
-}
-
-.OngoingTrialFrPage-frame {
-    overflow: visible;
-}
-
-.Forum_OngoingTrials {
-    margin: 1px;
-    text-align: center;
-    overflow: visible;
-    background-color: #03437D;
-    color: #FFFFFF;
-    width: 375px;
-}
-
-.OngoingTrialsPage {
-    font-family: Times New Roman, serif;
-}
-
-.TrialManager {}

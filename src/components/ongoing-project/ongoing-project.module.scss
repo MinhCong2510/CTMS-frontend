@@ -1,5 +1,5 @@
-.root {
-}
+.root {}
+
 .projectCard {
     display: grid;
     align-content: start;
@@ -10,15 +10,20 @@
     color: #ffffff;
     font-size: 20px;
     line-height: 3;
-  }
-  .projectCarousel {
+}
+
+.projectCarousel {
     display: flex;
-    justify-content: space-evenly;
-  }
-  .contentHeader {
+    justify-content: start;
+    align-items: start;
+}
+
+.contentHeader {
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
     color: #d96262;
     font-weight: 700;
-  }
+    display: flex;
+    justify-items: start;
+}

@@ -13,9 +13,9 @@ export const Sidebar = ({ className }: SidebarProps) => {
     return (
         <div className={styles.sidebar}>
             <h1 className={styles.contentHeader}>Upcoming Trials</h1>
-            <ul>Project 5</ul>
-            <ul>Project 6</ul>
-            <ul>Project 7</ul>
+            <label>Sleeping Study</label>
+            <label>Project 6</label>
+            <label>Project 7</label>
             <h1 className={styles.contentHeader}>Calendar</h1>
             <img
                 src="https://www.typecalendar.com/wp-content/uploads/2022/09/September-2023-Calendar.jpg"

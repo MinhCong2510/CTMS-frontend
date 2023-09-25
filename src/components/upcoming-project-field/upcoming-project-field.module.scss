@@ -1,0 +1,16 @@
+.root {}
+
+.projectCardTitle {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0px 10px 10px;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #03437d;
+    padding: 10px;
+}
