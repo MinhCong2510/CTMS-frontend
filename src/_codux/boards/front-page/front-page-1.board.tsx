@@ -5,4 +5,7 @@ export default createBoard({
     name: 'FrontPage',
     Board: () => <FrontPage />,
     isSnippet: true,
+    environmentProps: {
+        canvasHeight: 636
+    }
 });
