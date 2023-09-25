@@ -5,4 +5,7 @@ export default createBoard({
     name: 'ProfileCard',
     Board: () => <ProfileCard />,
     isSnippet: true,
+    environmentProps: {
+        windowHeight: 643
+    }
 });

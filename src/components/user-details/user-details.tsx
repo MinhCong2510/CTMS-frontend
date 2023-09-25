@@ -11,15 +11,17 @@ export interface UserDetailsProps {
  */
 export const UserDetails = ({ className }: UserDetailsProps) => {
     return <div>
-                        <header className="contentHeader">User Details</header>
-                        <div className="textField" style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            padding:20,
-                        }}>
-                            <text>Contact number: 04483910</text>
-                            <text>Email Address: jackp@hotmail.com</text>
-                            <text>Department: Oncology</text>
-                            <text>Badges: Employee of the Month</text>
-                        </div></div> ;
+        <header className="contentHeader">User Details</header>
+        <div className="textField" style={{
+            display: 'flex',
+            flexDirection: 'column',
+            padding: 20, width: '500px', fontSize: '30px'
+        }}>
+            <text>Contact number: (+61)***-***-***</text>
+            <text>Email Address: jackp@hotmail.com</text>
+            <text>Department: Oncology</text>
+            <text>Badges: Employee of the Month</text>
+            <text>Term and Policy </text>
+            <text>Set photo private or public: Public</text>
+        </div></div>;
 };

@@ -232,20 +232,23 @@ button:focus-visible {
 }
 
 .contentHeader {
-    font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
     color: #d96262;
     font-weight: 700;
     text-align: start;
+    font-family: Times New Roman, serif;
+    font-size: 50px;
 }
 
 .textField {
-    font-size: 20px;
+    font-size: 60px;
     display: inline;
     background-color: rgba(3, 67, 125, 0.03);
     color: #03437d;
     padding-right: 0px;
+    font-family: Times New Roman, serif;
+    width: 960px;
 }
 
 .forgotPBackground {
@@ -311,4 +314,59 @@ button:focus-visible {
     padding: 0px 20px;
     justify-content: space-between;
     column-gap: -10px;
+}
+
+.OngoingTrialsPage-button {
+    color: #FFFFFF;
+    background-color: #03437D;
+    width: 375px;
+}
+
+.OngoingTrialsPage-frontPage {
+    display: block;
+    font-family: Times New Roman, serif;
+}
+
+.OngoingTrialsPage_Context {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    font-style: italic;
+}
+
+.OngoingTrialsPage_OverallDescription {
+    color: #D84040;
+    background-color: #FFFFFF;
+}
+
+.OngoingTrialsPage_Header {
+    color: #D84040;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+
+.Manager_details {}
+
+.TrialManager-Image {}
+
+.CTManager_Header {
+    text-align: center;
+}
+
+.Profile {}
+
+.CTManager_Header {
+    display: block;
+    font-family: Times New Roman, serif;
+    color: #d96262;
+}
+
+.CTManager_Name {
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
