@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, Component } from 'react';
 import { Routes, Route} from 'react-router-dom';
 import styles from './App.module.scss';
 import { ProjectPage } from './components/project-page/project-page';

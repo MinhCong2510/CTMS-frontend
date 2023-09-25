@@ -1,10 +1,13 @@
 import classNames from 'classnames';
 import styles from './staff.module.scss';
 import { Sidebar } from '../sidebar/sidebar';
+<<<<<<< HEAD
 import Sidebar_module from '../sidebar/sidebar.module.scss';
 import NewProject_module from '../newproject/newproject.module.scss';
 import { Header } from '../header/header';
 import { Navbar } from '../navbar/navbar';
+=======
+>>>>>>> b61e93ff89c1b96543dd5dc81868f00a115e6b07
 
 export interface StaffProps {
     className?: string;
@@ -16,6 +19,7 @@ export interface StaffProps {
  */
 
 export const Staff = ({ className }: StaffProps) => {
+<<<<<<< HEAD
     return <div>
         <Header />
         <Navbar />
@@ -61,4 +65,41 @@ export const Staff = ({ className }: StaffProps) => {
                     </div>
                 </div></div>
             <Sidebar /></div></div>;
+=======
+    return <div className={classNames(styles.root, className)}>
+        <Sidebar />
+        <div>
+            <div>Staffs
+                <div className={styles.staffProfile}>
+                    <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt=""
+                        style={{
+                            width: 100,
+                            height: 100,
+                        }}
+                    />
+                    <div className={styles.staffField}>
+                        <label>Name:</label>
+                        <label>Position:</label>
+                        <label>Involved Projects:</label>
+                        <label>Certification: </label>
+                    </div>
+                </div>
+                <div className={styles.staffProfile}>
+                    <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt=""
+                        style={{
+                            width: 100,
+                            height: 100,
+                        }}
+                    />
+                    <div className={styles.staffField}>
+                        <label>Name:</label>
+                        <label>Position:</label>
+                        <label>Involved Projects:</label>
+                        <label>Certification: </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>;
+>>>>>>> b61e93ff89c1b96543dd5dc81868f00a115e6b07
 };
