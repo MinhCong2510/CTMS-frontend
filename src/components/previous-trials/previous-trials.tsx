@@ -1,7 +1,7 @@
 import classNames from 'classnames';
-import styles from './ongoing-project.module.scss';
+import styles from './previous-trials.module.scss';
 
-export interface OngoingProjectProps {
+export interface PreviousTrialsProps {
     className?: string;
 }
 
@@ -9,9 +9,8 @@ export interface OngoingProjectProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const OngoingProject = ({ className }: OngoingProjectProps) => {
-    return (
-        <div className="Trials_blockFrontPage">
+export const PreviousTrials = ({ className }: PreviousTrialsProps) => {
+    return <div className="Trials_blockFrontPage">
 
             <div className="Trials_blockFrontPage" >Ongoing Trial:</div>
             <div className={styles.projectCarousel}>
@@ -63,3 +62,4 @@ export const OngoingProject = ({ className }: OngoingProjectProps) => {
         </div>
     );
 };
+

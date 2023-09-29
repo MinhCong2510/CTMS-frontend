@@ -19,29 +19,66 @@ export const OngoingProjectField = ({ className }: OngoingProjectFieldProps) => 
         <Header />
         <Navbar />
         <div className="splitPanel">
-            <div>
-                <text className="contentHeader">Ongoing Project</text>
-                <div className="splitPanel" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
+            <div className="OngoingTrials_Main">
+                <text className="contentHeader">Ongoing Trials:</text>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
                     <div className={ssstyles.projectCard}>
-                        <text className={styles.projectCardTitle}>Cancer Free</text>
-                        <img src="https://st4.depositphotos.com/14431644/24384/i/450/depositphotos_243840022-stock-photo-text-sign-showing-cancer-free.jpg " alt="" style={{
+                        <text className={styles.projectCardTitle}>Trial Name</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg" alt="" style={{
                             height: 100,
                             width: 100,
                             objectFit: 'cover',
                         }} />
 
                     </div>
-                    <div className={sstyles.staffField}>
-                        <text>Project Name: Cancer Free</text>
-                        <text>Status: Second Stage</text>
-                        <text>Description: Finding ways of eradicating cancer cells by boosting immunity </text>
-                        <text>Participants: 1 people </text>
+                    <div className={classNames(sstyles.staffField, 'CTManager_Name')}>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: [First/Second/Third/Last...] Stage</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [number] people </text>
                     </div>
                 </div>
-                <div className="splitPanel" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
                     <div className={ssstyles.projectCard}>
-                        <text className={styles.projectCardTitle}>Dementia</text>
-                        <img src="https://img.aplaceformom.com/image/web-lighthouse/prod/dementia_behaviors.jpg?t=default " alt="" style={{
+                        <text className={styles.projectCardTitle}>Trial Name</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg" alt="" style={{
+                            height: 100,
+                            width: 100,
+                            objectFit: 'cover',
+                        }} />
+
+                    </div>
+                    <div className={classNames(sstyles.staffField, 'CTManager_Name')}>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: [First/Second/Third/Last...] Stage</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [number] people </text>
+                    </div>
+                </div>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
+                    <div className={ssstyles.projectCard}>
+                        <text className={styles.projectCardTitle}>Trial Name</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg " alt="" style={{
+                            height: 100,
+                            width: 100,
+                            objectFit: 'cover',
+                        }} />
+
+                    </div>
+                    <div className={classNames(sstyles.staffField, 'CTManager_Name')}>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: [First/Second/Third/Last...] Stage</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [number] people </text>
+                    </div>
+                </div>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
+                    <div className={ssstyles.projectCard}>
+                        <text className={styles.projectCardTitle}>Trial Name</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg " alt="" style={{
                             height: 100,
                             width: 100,
                             objectFit: 'cover',
@@ -49,10 +86,11 @@ export const OngoingProjectField = ({ className }: OngoingProjectFieldProps) => 
 
                     </div>
                     <div className={sstyles.staffField}>
-                        <text>Project Name: Dementia</text>
-                        <text>Status: First Stage</text>
-                        <text>Description: Finding ways of preventing dementia by boosting brain cells </text>
-                        <text>Participants: 1 people </text>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: [First/Second/Third/Last...] Stage</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [number] people </text>
                     </div>
                 </div>
             </div>

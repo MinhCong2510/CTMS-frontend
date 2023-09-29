@@ -12,11 +12,11 @@ export interface SidebarProps {
 export const Sidebar = ({ className }: SidebarProps) => {
     return (
         <div className={styles.sidebar}>
-            <h1 className={styles.contentHeader}>Upcoming Trials</h1>
-            <label>Sleeping Study</label>
-            <label>Project 6</label>
-            <label>Project 7</label>
-            <h1 className={styles.contentHeader}>Calendar</h1>
+            <h2 className="CTManager_Header">Current Trials</h2>
+            <label className="CTManager_Name">Ongoing Trial 5: Trial Name-Code</label>
+            <label className="CTManager_Name">Ongoing Trial 6: Trial Name-Code</label>
+            <label className="CTManager_Name">Ongoing Trial 7: Trial Name-Code</label>
+            <h2 className="CTManager_Header">Calendar</h2>
             <img
                 src="https://www.typecalendar.com/wp-content/uploads/2022/09/September-2023-Calendar.jpg"
                 style={{
@@ -24,8 +24,8 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     height: 160,
                 }}
             />
-            <h1 className={styles.contentHeader}>Feedback</h1>
-            <p> Tell us what you think</p>
+            <h2 className="CTManager_Header">Feedback</h2>
+            <p className="CTManager_Name"> Tell us what you think</p>
         </div>
     );
 };

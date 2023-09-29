@@ -313,7 +313,8 @@ button:focus-visible {
     display: flex;
     padding: 0px 20px;
     justify-content: space-between;
-    column-gap: -10px;
+    gap: 5px 15px;
+    flex-direction: row;
 }
 
 .OngoingTrialsPage-button {
@@ -365,8 +366,73 @@ button:focus-visible {
 
 .CTManager_Name {
     color: #000000;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: Times New Roman, serif;
+    font-size: 18px;
+}
+
+.OngoingTrialsPage_Phases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: none;
+    gap: 30px 20px;
+    background-color: #F0F0F0;
+    align-items: center;
+    justify-items: center;
+}
+
+.OngoingTrialsPage_Submissionbutton {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.OngoingTrailsPage_Home_StartHere {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px 20px;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+}
+
+.Trials_blockFrontPage {
+    font-family: Times New Roman, serif;
+    font-size: 40px;
+    color: #D84040;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.UpcomingTrial_blockFrontPage {
+    flex-direction: row;
+    display: block;
+    font-size: 21px;
+    font-family: Times New Roman, serif;
+    width: 1000px;
+}
+
+.OngoingTrials_Main {
+    background-color: #F0F0F0;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.TrialForm_input {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Times New Roman, serif;
 }

@@ -18,12 +18,12 @@ export const UpcomingProjectField = ({ className }: UpcomingProjectFieldProps) =
         <Header />
         <Navbar />
         <div className="splitPanel">
-            <div>
-                <text className="contentHeader">Upcoming Project</text>
-                <div className="splitPanel" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <div className="OngoingTrials_Main">
+                <text className="contentHeader">Previous Trials</text>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
                     <div className={styles.projectCard}>
-                        <text className={styles.projectCardTitle}>Sleeping Study</text>
-                        <img src="https://renuerx.com/wp-content/uploads/2021/02/renue-rx-What-Vitamins-Interfere-With-Birth-Control-Pills-Supplement-Options.jpg " alt="" style={{
+                        <text className={styles.projectCardTitle}>Trial 1</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg " alt="" style={{
                             height: 100,
                             width: 100,
                             objectFit: 'cover',
@@ -31,10 +31,65 @@ export const UpcomingProjectField = ({ className }: UpcomingProjectFieldProps) =
 
                     </div>
                     <div className={sstyles.staffField}>
-                        <text>Project Name: Sleeping Study</text>
-                        <text>Status: Open on 10/10/2023</text>
-                        <text>Description: Finding if sleeping pills affects blood pressure </text>
-                        <text>Participants: 50 people </text>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: Completed on [enter date]</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [minimum- maximum number] people </text>
+                    </div>
+                </div>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
+                    <div className={styles.projectCard}>
+                        <text className={styles.projectCardTitle}>Trial 2</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg " alt="" style={{
+                            height: 100,
+                            width: 100,
+                            objectFit: 'cover',
+                        }} />
+
+                    </div>
+                    <div className={sstyles.staffField}>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: Completed on [enter date]</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [minimum- maximum number]  people </text>
+                    </div>
+                </div>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingBottom: '10px' }}>
+                    <div className={styles.projectCard}>
+                        <text className={styles.projectCardTitle}>Trial 3</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg " alt="" style={{
+                            height: 100,
+                            width: 100,
+                            objectFit: 'cover',
+                        }} />
+
+                    </div>
+                    <div className={sstyles.staffField}>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: Completed on [enter opening date]</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [minimum- maximum number]  people </text>
+                    </div>
+                </div>
+                <div className={classNames('splitPanel', 'CTManager_Name')} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '10px', paddingRight: '20px', paddingBottom: '10px' }}>
+                    <div className={styles.projectCard}>
+                        <text className={styles.projectCardTitle}>Trial 4</text>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg " alt="" style={{
+                            height: 100,
+                            width: 100,
+                            objectFit: 'cover',
+                        }} />
+
+                    </div>
+                    <div className={sstyles.staffField}>
+                        <text>Trial Name: [Insert Trial Name]</text>
+                        <text>Trail Code: [Insert Trial Code]</text>
+                        <text>Status: Completed on [enter date]</text>
+                        <text>Description: [Enter a brief description of the trial and its function/purpose] </text>
+                        <text>Participants: [minimum- maximum number]  people </text>
                     </div>
                 </div>
             </div>

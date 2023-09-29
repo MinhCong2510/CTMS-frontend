@@ -13,62 +13,25 @@ export const NewProject = ({ className }: NewProjectProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div
-                className={styles.contentHeader}
+                className={classNames(styles.contentHeader, 'CTManager_Name')}
                 style={{
                     textAlign: 'center',
                 }}
-            >
-                New Clinical Project
-            </div>
+            >New Clinical Trial</div>
             <form className={styles.projectForm}>
-                <label className={styles.formField}>
-                    <div style={{
-                        marginRight:150,
-                    }}>Study Name:</div>
-                    <input type="text" />
+                <label className={classNames(styles.formField, 'TrialForm_input')}>Trial Name:<input type="text" className="username-input" />
                 </label>
-                <br />
-                <label className={styles.formField}>
-                    Description
-                    <input type="text" />
+                <label className={styles.formField}>Description:<input type="text" className="username-input" />
                 </label>
-                <br />
-                <label className={styles.formField}>
-                    Start Date
-                    <input
-                        type="date"
-                        style={{
-                            width: 180,
-                            paddingRight: '10px',
-                            paddingLeft: '10px',
-                        }}
-                    />
+                <label className={styles.formField}>Start Date:<input type="text" className="username-input" />
                 </label>
-                <br />
-                <label className={styles.formField}>
-                    End Date
-                    <input
-                        type="date"
-                        style={{
-                            width: 180,
-                            padding: '0px 10px',
-                        }}
-                    />
+                <label className={styles.formField}>End Date:<input type="text" className="username-input" />
                 </label>
-                <br />
-                <label className={styles.formField}>
-                    Duration
-                    <input type="text" />
+                <label className={styles.formField}>Duration:<input type="text" className="username-input" />
                 </label>
-                <br />
-                <label className={styles.formField}>
-                    Treatment
-                    <input type="text" />
+                <label className={styles.formField}>Treatment:<input type="text" className="username-input" />
                 </label>
-                <br />
-                <label className={styles.formField}>
-                    Sponsor
-                    <input type="text" />
+                <label className={styles.formField}>Number of patients:<input type="text" className="username-input" />
                 </label>
                 <br />
                 <br />
@@ -77,13 +40,14 @@ export const NewProject = ({ className }: NewProjectProps) => {
                         alignContent: 'center',
                         justifyContent: 'center',
                         textAlign: 'center',
-                        marginBottom:20,
+                        marginBottom: 20,
                     }}
                 >
                     <input
                         type="submit"
                         value="Create Study"
                         style={{ color: '#FFFFFF', backgroundColor: 'rgb(3, 67, 125)' }}
+                        className="submit_button"
                     />
                 </div>
             </form>
