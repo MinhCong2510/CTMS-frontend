@@ -14,9 +14,9 @@ export const Navbar = ({ className }: NavbarProps) => {
         <nav className={styles.navBar}>
                 <Link to='/frontpage'><h3 className={styles.navElement}>Home</h3>  
                 </Link>
-                <Link to='/ongoingprojects'><h3 className={styles.navElement}> Ongoing Projects</h3></Link>
-                <Link to='/upcomingprojects'><h3 className={styles.navElement}> Upcoming Projects</h3></Link>
-                <Link to='/projectpage'><h3 className={styles.navElement}> New Project</h3></Link>
+                <Link to='/ongoingprojects'><h3 className={styles.navElement}> Ongoing Trials</h3></Link>
+                <Link to='/upcomingprojects'><h3 className={styles.navElement}> Previous Trials</h3></Link>
+                <Link to='/projectpage'><h3 className={styles.navElement}> New Trial</h3></Link>
                 <Link to='/staff'><h3 className={styles.navElement}> Staff</h3></Link>
                 <Link to='/profile'><h3 className={styles.navElement}> Profile</h3></Link>
                 <Link to='/login'><img src="https://cdn-icons-png.flaticon.com/512/56/56805.png" alt="" 

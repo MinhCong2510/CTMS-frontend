@@ -16,7 +16,7 @@ export interface ProfileProps {
  */
 
 export const Profile = ({ className }: ProfileProps) => {
-    return <div className={styles.profile}>
+    return <div id="root" className={classNames(styles.profile, styles.root)}>
         <Header />
         <Navbar />
         <div>

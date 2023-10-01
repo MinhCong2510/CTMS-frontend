@@ -14,6 +14,11 @@
     -webkit-text-size-adjust: 100%;
 }
 
+#root {
+    width: 100%;
+}
+
+
 a {
     font-weight: 500;
     color: #ffffff;
@@ -29,12 +34,13 @@ a:hover {
 }
 
 body {
-    margin: 0;
+    margin: auto;
+    width: 100%;
     display: flex;
-    place-items: center;
     justify-content: center;
     min-width: 320px;
     min-height: 100vh;
+
 }
 
 h1 {
@@ -197,7 +203,7 @@ button:focus-visible {
 
 .submit_button {
     align-self: start;
-    width: 150px;
+    width: 200px;
     color: #ffffff;
     background-color: #ff0000;
     border-radius: 5px;
@@ -435,4 +441,9 @@ button:focus-visible {
     align-items: center;
     padding: 10px 20px;
     font-family: Times New Roman, serif;
+}
+
+.DescriptionNewTrial {
+    width: 350px;
+    height: 150px;
 }

@@ -1,5 +1,5 @@
 import { useState, Component } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { useNavigate, Routes, Route } from 'react-router-dom';
 import styles from './App.module.scss';
 import { ProjectPage } from './components/project-page/project-page';
 import { FrontPage } from './components/front-page/front-page';
@@ -16,8 +16,9 @@ function App() {
     const [count, setCount] = useState(0);
 
     return (
+        navigate ('/LogIn'); 
         <div className={styles.App}>
-            <Blank className={Classnames(styles.blank_component, 'OngoingTrialsPage-button')} />
+        
             <Routes>
                 <Route path="/frontpage" element={<FrontPage />} />
                 <Route path="/projectpage" element={<ProjectPage />} />
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/upcomingprojects" element={<UpcomingProjectField />} />
                 <Route path="/login" element={<LogIn />} />
             </Routes>
+            <Blank className={Classnames(styles.blank_component, 'OngoingTrialsPage-button')} />
         </div>
     );
 }
