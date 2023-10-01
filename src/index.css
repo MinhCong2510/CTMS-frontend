@@ -210,8 +210,10 @@ button:focus-visible {
     font-size: 20px;
     justify-content: start;
     align-content: start;
-    display: block;
+    display: flex;
     height: 30px;
+    justify-items: center;
+    text-align: center;
 }
 
 .username-input {
@@ -332,6 +334,8 @@ button:focus-visible {
 .OngoingTrialsPage-frontPage {
     display: block;
     font-family: Times New Roman, serif;
+    width: 100%;
+    height: 100%;
 }
 
 .OngoingTrialsPage_Context {
@@ -352,6 +356,10 @@ button:focus-visible {
     font-size: 35px;
     font-style: italic;
     text-align: center;
+    display: grid;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 100%;
 }
 
 .Manager_details {}
@@ -446,4 +454,24 @@ button:focus-visible {
 .DescriptionNewTrial {
     width: 350px;
     height: 150px;
+}
+
+.NewTrial {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.staff-list {
+    display: grid;
+    font-family: Times New Roman, serif;
+    font-size: 15px;
+    gap: 1px;
+}
+
+.Filter_Staffs {
+    width: 120px;
+    font-family: "Times New Roman";
+    text-align: start;
 }

@@ -13,7 +13,6 @@ export default createBoard({
     name: 'Ongoing Trials Page - done',
     Board: () => <div className="OngoingTrialsPage-frontPage">
         <Header />
-
         <div className="OngoingTrialsPage_Context">
             <h2 className="OngoingTrialsPage_Header">Ongoing Trials
                 <h4 className="OngoingTrialsPage_OverallDescription">Trial 1: Trial Name- Trial Code- Trial Manager
@@ -66,6 +65,6 @@ export default createBoard({
         windowWidth: 1920,
         windowHeight: 1080,
         canvasHeight: 1080,
-        canvasWidth: 2054
+        canvasWidth: 1924
     }
 });

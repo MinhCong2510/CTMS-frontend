@@ -20,43 +20,119 @@ export const Staff = ({ className }: StaffProps) => {
         <Header />
         <Navbar />
         <div className="splitPanel">
-            <div>
+            <div className="staff-list">
                 <header style={{
-                    fontSize: 20,
+                    fontSize: 30,
                     paddingRight: 10,
                     paddingLeft: 10,
                     color: '#d96262',
-                    fontWeight: 700, textAlign: 'left'
+                    fontWeight: 700, textAlign: 'left', alignSelf: 'center'
                 }}>Staffs</header>
+                <select placeholder="Filter" className="Filter_Staffs"><option>Filter</option>
+                    <option>Filter by Name</option>
+                    <option>Filter by Position</option><option>Filter by Occupation</option>
+                    <option>Filter by Involved Projects</option>
+                    <option>Filter from A to Z</option>
+                    <option>Filter from Z to A</option>
+                </select>
                 <div className="splitPanel">
                     <div className={styles.staffProfile}>
-                        <img src="https://t4.ftcdn.net/jpg/02/45/56/35/360_F_245563558_XH9Pe5LJI2kr7VQuzQKAjAbz9PAyejG1.jpg" alt=""
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="staff-profile-picture"
                             style={{
                                 width: 100,
                                 height: 100,
                                 objectFit: 'cover',
+                                margin: '10px'
                             }}
                         />
                         <div className={styles.staffField}>
-                            <label>Name: Jack</label>
-                            <label>Position:Doctor</label>
-                            <label>Involved Projects:Cancer-Free, Dementia</label>
-                            <label>Certification: PhD in Oncology</label>
+                            <label>Name: [insert staff name]</label>
+                            <label>Position:[insert staff position]</label>
+                            <label>Involved Projects: [insert project's name/code] </label>
+                            <label>Occupation: [insert staff's occupation]</label>
                         </div>
                     </div>
                     <div className={styles.staffProfile}>
-                        <img src="https://t3.ftcdn.net/jpg/02/58/89/90/360_F_258899001_68CalsKTRk6PZQgWH9JhR4heBlncCko9.jpg" alt=""
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt=""
                             style={{
                                 width: 100,
                                 height: 100,
                                 objectFit: 'cover',
+                                margin: '10px',
+                            }}
+                        />
+
+                        <div className={styles.staffField}>
+                            <label>Name: [insert staff name]</label>
+                            <label>Position:[insert staff position]</label>
+                            <label>Involved Projects: [insert project's name/code] </label>
+                            <label>Occupation: [insert staff's occupation]</label>
+                        </div>
+                    </div>
+                </div>
+                <div className="splitPanel">
+                    <div className={styles.staffProfile}>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="staff-profile-picture"
+                            style={{
+                                width: 100,
+                                height: 100,
+                                objectFit: 'cover',
+                                margin: '10px',
                             }}
                         />
                         <div className={styles.staffField}>
-                            <label>Name:Mark</label>
-                            <label>Position:Admin</label>
-                            <label>Involved Projects:Dementia</label>
-                            <label>Certification: Admin Expert  </label>
+                            <label>Name: [insert staff name]</label>
+                            <label>Position:[insert staff position]</label>
+                            <label>Involved Projects: [insert project's name/code] </label>
+                            <label>Occupation: [insert staff's occupation] </label>
+                        </div>
+                    </div>
+                    <div className={styles.staffProfile}>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt=""
+                            style={{
+                                width: 100,
+                                height: 100,
+                                objectFit: 'cover',
+                                margin: '10px',
+                            }}
+                        />
+                        <div className={styles.staffField}>
+                            <label>Name: [insert staff name]</label>
+                            <label>Position:[insert staff position]</label>
+                            <label>Involved Projects: [insert project's name/code] </label>
+                            <label>Occupation: [insert staff's occupation]</label>
+                        </div>
+                    </div>
+                </div>
+                <div className="splitPanel">
+                    <div className={styles.staffProfile}>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="staff-profile-picture"
+                            style={{
+                                width: 100,
+                                height: 100,
+                                objectFit: 'cover', margin: '10px',
+                            }}
+                        />
+                        <div className={styles.staffField}>
+                            <label>Name: [insert staff name]</label>
+                            <label>Position:[insert staff position]</label>
+                            <label>Involved Projects: [insert project's name/code] </label>
+                            <label>Occupation: [insert staff's occupation]</label>
+                        </div>
+                    </div>
+                    <div className={styles.staffProfile}>
+                        <img src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt=""
+                            style={{
+                                width: 100,
+                                height: 100,
+                                objectFit: 'cover', margin: '10px',
+                            }}
+                        />
+                        <div className={styles.staffField}>
+                            <label>Name: [insert staff name]</label>
+                            <label>Position:[insert staff position]</label>
+                            <label>Involved Projects: [insert project's name/code] </label>
+                            <label>Occupation: [insert staff's occupation]</label>
                         </div>
                     </div>
                 </div></div>

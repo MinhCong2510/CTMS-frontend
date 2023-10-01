@@ -2,7 +2,7 @@ import { createBoard } from '@wixc3/react-board';
 import { ProjectPage } from '../../../components/project-page/project-page';
 
 export default createBoard({
-    name: 'ProjectPage',
+    name: 'New Trial - semi complete',
     Board: () => <ProjectPage />,
     isSnippet: true,
     environmentProps: {

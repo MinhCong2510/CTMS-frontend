@@ -18,7 +18,7 @@ export const NewProject = ({ className }: NewProjectProps) => {
                     textAlign: 'center',
                 }}
             >New Clinical Trial</div>
-            <form className={styles.projectForm}>
+            <form className="NewTrial">
                 <label className={classNames(styles.formField, 'TrialForm_input')}>Trial Name:<input type="text" className="username-input" />
                 </label>
                 <label className={classNames(styles.formField, 'TrialForm_input')}>Description:<input type="text" className={classNames('username-input', 'DescriptionNewTrial')} />
@@ -27,17 +27,12 @@ export const NewProject = ({ className }: NewProjectProps) => {
                 </label>
                 <br />
                 <div
-                    style={{
-                        alignContent: 'center',
-                        justifyContent: 'center',
-                        textAlign: 'center',
-                        marginBottom: 20,
-                    }}
+                    className="submit_button"
                 >
                     <input
                         type="submit"
                         value="Create Clinical Trial"
-                        style={{ color: '#FFFFFF', backgroundColor: 'rgb(3, 67, 125)', alignSelf: 'start', textAlign: 'center' }}
+                        style={{ color: '#FFFFFF', backgroundColor: '#ff0000', alignSelf: 'start', textAlign: 'center' }}
                         className="submit_button"
                     />
                 </div>
