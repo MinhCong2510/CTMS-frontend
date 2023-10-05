@@ -2,6 +2,7 @@ import { createBoard } from '@wixc3/react-board';
 import { Header } from '../../components/header/header';
 import Classnames from 'classnames';
 import { TrialManager_Component } from '../../components/trial-manager-component/trial-manager-component';
+import { Navbar } from '../../components/navbar/navbar';
 
 
 
@@ -13,6 +14,7 @@ export default createBoard({
     name: 'Ongoing Trials Page - done',
     Board: () => <div className="OngoingTrialsPage-frontPage">
         <Header />
+        <Navbar />
         <div className="OngoingTrialsPage_Context">
             <h2 className="OngoingTrialsPage_Header">Ongoing Trials
                 <h4 className="OngoingTrialsPage_OverallDescription">Trial 1: Trial Name- Trial Code- Trial Manager
