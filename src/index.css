@@ -250,13 +250,13 @@ button:focus-visible {
 }
 
 .textField {
-    font-size: 60px;
     display: inline;
     background-color: rgba(3, 67, 125, 0.03);
     color: #03437d;
     padding-right: 0px;
     font-family: Times New Roman, serif;
     width: 960px;
+    font-size: 50px;
 }
 
 .forgotPBackground {
@@ -480,8 +480,8 @@ button:focus-visible {
 .staff-list {
     display: grid;
     font-family: Times New Roman, serif;
-    font-size: 15px;
     gap: 1px;
+    font-size: 1em;
 }
 
 .Filter_Staffs {
