@@ -10,7 +10,10 @@ export default createBoard({
         </MemoryRouter>
     ),
     environmentProps: {
-        canvasWidth: 1060,
-        windowWidth: 1024
+
+        windowWidth: 1920,
+        windowHeight: 1080,
+        canvasWidth: 1366,
+        canvasHeight: 1080,
     },
 });

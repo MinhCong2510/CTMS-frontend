@@ -11,12 +11,12 @@ import { OngoingProjectField } from './components/ongoing-project-field/ongoing-
 import { LogIn } from './components/log-in/log-in';
 import { Blank } from './components/blank/blank';
 import Classnames from 'classnames';
-
+import {Trial_1_Home_Page} from './components/trial-1-home-page/trial-1-home-page' ;
 function App() {
     const [count, setCount] = useState(0);
 
     return (
-        navigate ('/LogIn'); 
+
         <div className={styles.App}>
         
             <Routes>
@@ -28,6 +28,7 @@ function App() {
                 <Route path="/ongoingprojects" element={<OngoingProjectField />} />
                 <Route path="/upcomingprojects" element={<UpcomingProjectField />} />
                 <Route path="/login" element={<LogIn />} />
+                <Route path="/t1Home" element={<Trial_1_Home_Page/>} />
             </Routes>
             <Blank className={Classnames(styles.blank_component, 'OngoingTrialsPage-button')} />
         </div>

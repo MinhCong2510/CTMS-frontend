@@ -1,9 +1,10 @@
 import { createBoard } from '@wixc3/react-board';
 import { FrontPage } from '../../../components/front-page/front-page';
+import {MemoryRouter} from 'react-router-dom';
 
 export default createBoard({
     name: 'FrontPage -Home Page- done',
-    Board: () => <FrontPage />,
+    Board: () => <MemoryRouter><FrontPage /></MemoryRouter>,
     isSnippet: true,
     environmentProps: {
         canvasHeight: 1080,

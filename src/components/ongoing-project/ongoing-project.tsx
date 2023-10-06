@@ -26,7 +26,7 @@ export const OngoingProject = ({ className }: OngoingProjectProps) => {
                         objectFit: 'cover',
                     }}
                 />
-                </div>
+                </div> 
                 <div className={styles.projectCard}>Trial 2: Trial Name- Code- Manager<img src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg"
                     alt=""
                     style={{
