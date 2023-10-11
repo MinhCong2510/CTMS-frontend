@@ -1,5 +1,6 @@
 import { createBoard } from '@wixc3/react-board';
 import { UpcomingProjectField } from '../../../components/upcoming-project-field/upcoming-project-field';
+import { MemoryRouter } from 'react-router-dom';
 
 export default createBoard({
     name: 'PreviousProjectField- done',

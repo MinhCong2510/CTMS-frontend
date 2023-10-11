@@ -12,6 +12,7 @@ import { LogIn } from './components/log-in/log-in';
 import { Blank } from './components/blank/blank';
 import Classnames from 'classnames';
 import {Trial_1_Home_Page} from './components/trial-1-home-page/trial-1-home-page' ;
+import { PreviousTrial_1_HomePage } from './components/previous-trial-1-home-page/previous-trial-1-home-page';
 function App() {
     const [count, setCount] = useState(0);
 
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/upcomingprojects" element={<UpcomingProjectField />} />
                 <Route path="/login" element={<LogIn />} />
                 <Route path="/t1Home" element={<Trial_1_Home_Page/>} />
+                <Route path="/PreviousTrial_1_HomePage" element={<PreviousTrial_1_HomePage/>}/>
             </Routes>
             <Blank className={Classnames(styles.blank_component, 'OngoingTrialsPage-button')} />
         </div>

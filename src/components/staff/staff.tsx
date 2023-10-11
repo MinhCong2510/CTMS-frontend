@@ -26,7 +26,7 @@ export const Staff = ({ className }: StaffProps) => {
                     paddingRight: 10,
                     paddingLeft: 10,
                     color: '#d96262',
-                    fontWeight: 700, textAlign: 'left', alignSelf: 'center'
+                    fontWeight: 700, textAlign: 'center', alignSelf: 'center'
                 }}>Staffs</header>
                 <select placeholder="Filter" className="Filter_Staffs"><option>Filter</option>
                     <option>Filter by Name</option>

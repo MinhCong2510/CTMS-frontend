@@ -16,6 +16,7 @@ export const OngoingProject = ({ className }: OngoingProjectProps) => {
         <div className="Trials_blockFrontPage">
 
             <div className="Trials_blockFrontPage" >Ongoing Trial:</div>
+            <Link to ="/ProjectPage"> <button className={classNames('OngoingTrialsPage-button', 'UpcomingTrial_blockFrontPage')}>Add a new trial ( authorised by eHealth clinical trial specialists  - Hidden from staffs)</button> </Link>
             <div className={styles.projectCarousel}>
                 <Link to= '/t1Home'> <div className={styles.projectCard}>Trial 1: Trial Name- Code- Manager<img
                     src="https://static.vecteezy.com/system/resources/previews/007/126/739/non_2x/question-mark-icon-free-vector.jpg"

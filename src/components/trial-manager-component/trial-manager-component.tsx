@@ -15,9 +15,9 @@ export const TrialManager_Component = ({ className }: TrialManager_ComponentProp
     return <div className={classNames(styles.root, className)}>
         <h2 className="CTManager_Header">Clinical Trial Manager</h2>
         <img src="https://t4.ftcdn.net/jpg/02/45/56/35/360_F_245563558_XH9Pe5LJI2kr7VQuzQKAjAbz9PAyejG1.jpg" width="270"
-        <h5 className="CTManager_Name">Name: Jack</h5>
+        <h5 className="CTManager_Name">Name: Unknown</h5>
         <h5 className="CTManager_Name">Contact Number: (+61)***-***-***</h5>
-        <h5 className="CTManager_Name">Email Address: jackp@hotmail.com</h5>
+        <h5 className="CTManager_Name">Email Address: Unknown@clinic.ehealth.com</h5>
         <h2 className="CTManager_Header">Lastest Announcement </h2>
         <p className="CTManager_Name">Announcement 1: Trial 1 Announcement</p>
         <p className="CTManager_Name">Announcement 2: Trial 2 Announcement</p>

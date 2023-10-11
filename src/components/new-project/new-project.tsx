@@ -16,6 +16,11 @@ export const NewProject = ({ className }: NewProjectProps) => {
                 className={classNames(styles.contentHeader, 'CTManager_Name')}
                 style={{
                     textAlign: 'center',
+                    ontSize: 30,
+                    paddingRight: 10,
+                    paddingLeft: 10,
+                    color: '#d96262',
+                    fontWeight: 700, alignSelf: 'center'
                 }}
             >New Clinical Trial</div>
             <form className="NewTrial">

@@ -13,7 +13,7 @@ export default createBoard({
 
         windowWidth: 1966,
         windowHeight: 1080,
-        canvasWidth: 1294,
+        canvasWidth: 1374,
         canvasHeight: 1084,
     },
 });
